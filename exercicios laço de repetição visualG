@@ -1,0 +1,180 @@
+Algoritmo "PARA"
+// Disciplina   :Lógica de Programação
+// Professor   : Cida Castello
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : StrangeAnder
+// Data atual  : 19/05/2024
+Var
+cont:inteiro
+i:inteiro
+soma:inteiro
+
+
+Inicio
+//contagem progessiva de 1 à 10
+escreval("===================================")
+escreval(" COMANDOS: para , ate ,faça")
+escreval(" contagem progressiva.")
+escreval()
+para cont de 1 ate  100  faca
+escreva(cont:3)
+fimpara
+
+escreval()
+escreval()
+escreval("===================================")
+//contagem regressiva usando "passo"
+escreval("===================================")
+escreval(" COMANDOS: para , passo, ate ,faça")
+escreval(" contagem regressiva.")
+escreval()
+para i de 100 ate 1 passo -1 faca
+escreva(i)
+fimpara
+
+
+
+SOMANDO OS NÚMEROS DO CONTADOR:
+
+Algoritmo "PARA"
+// Disciplina   :Lógica de Programação
+// Professor   : Cida Castello
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : StrangeAnder
+// Data atual  : 19/05/2024
+Var
+cont:inteiro
+i:inteiro
+soma:inteiro
+
+
+Inicio
+//somar os números do contador
+para cont de 1 ate 100 faca
+soma <- soma + cont
+escreval("Soma =" ,soma)
+fimpara
+
+
+Fimalgoritmo
+
+
+
+
+
+
+
+
+SOMANDO OS PRIMEIROS NÚMEROS ÍMPARES
+
+
+
+
+Algoritmo "PARA"
+// Disciplina   :Lógica de Programação
+// Professor   : Cida Castello
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : StrangeAnder
+// Data atual  : 19/05/2024
+Var
+cont:inteiro
+soma:inteiro
+
+
+Inicio
+//somar os 100 primeiros  números ÍMPARES do contador
+soma <- 0
+para cont de 1 ate 100 faca
+se cont MOD 2 <> 0 entao
+soma <- soma + cont
+escreval("Soma = " ,soma:4)
+fimse
+fimpara
+
+
+
+
+Fimalgoritmo
+
+
+
+
+
+
+
+
+TABUADA INTERATIVA
+
+
+
+
+Algoritmo "TABUADA INTERATIVA"
+// Disciplina: Lógica de Programação
+// Professor: Cida Castello
+// Descrição: Aqui você descreve o que o programa faz! (função)
+// Autor(a): StrangeAnder
+// Data atual:19/05/2024
+Var
+cont:inteiro
+alg1:inteiro
+alg2:inteiro
+res:inteiro
+
+
+
+Inicio
+Escreval("=============================")
+Escreval("      TABUADA INTERATIVA")
+Escreval("=============================")
+
+alg1 <-1
+Escreva("Digite um número:")
+leia(alg2)
+para alg1 de 1 ate 10  faca
+res <- alg1* alg2
+escreval( alg2, "  X  ", alg1, " = "  ,res)
+fimpara
+
+Fimalgoritmo
+
+
+
+CALCULAR FATORIAL
+
+Algoritmo "CALCULAE FATORIAL"
+// Disciplina:Lógica de Programação
+// Professor: Cida Castello
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : StrangeAnder
+// Data atual  : 19/05/2024
+Var
+i:inteiro
+fat:inteiro
+num:inteiro
+
+
+
+Inicio
+Escreval("===============================")
+Escreval("      CALCULO FATORIAL!")
+Escreval("===============================")
+Escreval()
+escreval("Digite o número para calcular o fatorial:")
+leia(num)
+escreval()
+fat <-1
+para i de num ate 1 passo -1 faca
+escreva(i ," x ",fat)
+fat <- fat * i
+escreva(" = " ,fat)
+escreval()
+fimpara
+
+
+
+
+
+Fimalgoritmo
+
+
+ATE A PROXIMA AULA
